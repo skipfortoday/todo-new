@@ -1,12 +1,10 @@
 import React from "react";
 import classNames from "classnames";
-// import { Collapse } from "react-bootstrap";
-import { ReactComponent as checkIcon } from "../../assets/img/check.svg";
 
 export const priorityList = [
   {
     className: "todo-indicator red",
-    title: "Very High",
+    title: "Very High",https://github.com/skipfortoday/todo-new/blob/main/src/components/Inputs/PrioritySelect.jsx
     key: "very-high",
   },
   {
