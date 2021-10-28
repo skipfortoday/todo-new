@@ -3,7 +3,7 @@ import classNames from "classnames";
 import { useParams, useHistory } from "react-router-dom";
 import { ReactComponent as BackIcon } from "../../assets/img/back.svg";
 import { ReactComponent as EditIcon } from "../../assets/img/edit.svg";
-import VectorNewList from "../../assets/img/vector-new-list.svg";
+import VectorNewList from "../../assets/img/vector-new-list.webp";
 import ListCard from "../../components/Cards/ListCard";
 import AddButton from "../../components/Buttons/AddButton";
 import { useDispatch, useSelector } from "react-redux";
@@ -54,7 +54,6 @@ const DetailActivity = () => {
     };
 
     _fetchData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dispatch, history, id]);
 
   const _resetInput = () => {

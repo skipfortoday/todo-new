@@ -3,7 +3,7 @@ import classNames from "classnames";
 import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
-import VectorNewActivity from "../../assets/img/vector-new-activity.svg";
+import VectorNewActivity from "../../assets/img/vector-new-activity.webp";
 import AddButton from "../../components/Buttons/AddButton";
 import {
   addActivity,

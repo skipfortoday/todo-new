@@ -1,15 +1,10 @@
 @use "./variables" as v;
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
-// Bootstrap Start
 @import "~bootstrap/scss/bootstrap-grid";
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/reboot";
 @import "~bootstrap/scss/modal";
-// Bootstrap End
-
-// My Styling Components and Views
 @import "../components/Buttons/buttons.components.scss";
 @import "../components/Cards/cards.components.scss";
 @import "../components/Inputs/inputs.components.scss";
@@ -17,9 +12,7 @@
 
 @import "./modules/dashboard.modules.scss";
 @import "./modules/detail_activity.modules.scss";
-// End My Styling
 
-// Global Selector
 * {
   font-family: v.$font;
 }
@@ -55,18 +48,12 @@ button {
   background: transparent;
 }
 
-// Custom BS
 .container {
   max-width: 1000px !important;
 }
 .fade {
   transition-duration: 0.075s !important;
 }
-// .modal.fade .modal-dialog {
-//   transition-duration: 0.15s !important;
-// }
-
-// Indicator
 
 .todo-indicator {
   width: 14px;
@@ -96,8 +83,6 @@ button {
     border-radius: 7px;
   }
 }
-
-// My Global Layout
 .todo-header {
   background-color: v.$primary;
   color: white;

@@ -26,7 +26,7 @@ export const priorityList = [
     className: "todo-indicator purple",
     title: "Very Low",
     key: "very-low",
-  }
+  },
 ];
 
 const PrioritySelect = ({ input, ...props }) => {
