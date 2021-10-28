@@ -4,7 +4,7 @@ import classNames from "classnames";
 export const priorityList = [
   {
     className: "todo-indicator red",
-    title: "Very High",https://github.com/skipfortoday/todo-new/blob/main/src/components/Inputs/PrioritySelect.jsx
+    title: "Very High",
     key: "very-high",
   },
   {
